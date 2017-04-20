@@ -1,0 +1,22 @@
+
+Q1: approach 2, also check the large number of times we are running for the ensemble.
+	Plot it to see for many are necessary for the ensemble to converge.
+	
+	Imp this is remaining.
+	
+	ie do for 10,100,1e3
+	
+	Change the plot axes
+	
+	///////////////////////
+	
+	Proj points-
+	
+	Nature of code: good project book
+	
+	Sir reco: pick an interesting project but which is not too exotic. Keep it simple.
+			   
+			  Sir recommends doing cellular automata or probabilistic modelling.
+			  Rate equations and its analysis can be used as non lin project!!! [combina possible].
+			  
+			  

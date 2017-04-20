@@ -1,0 +1,40 @@
+for abs condition the diffusion seems less. 
+
+Something is constraining the temp spread in the abs condition.
+
+key word- abs state is "well ventilated"
+
+in reflec case the boundaries are similar to the condi at edge
+so as edges get hotter, the bouddary also gets hotter. SO though
+it wont have much effect on the delta, it at least does not decrease it.
+
+however in abs case, the boudary always stays at 25 as if it never heats up
+in that case for the edge cells(of the actual grid), the boudary will always 
+take away some heat act in a negative way, this is not a neutral bouddary condi
+it actively takes a part in cooling it down.
+
+the heat and cold sources have actually been impleme as absorbing points because
+their temp also stays the same always.
+
+it is impartially present between hot and cold. Now if we set if such that 
+it helps the hot or cold regions the result will be diff.
+
+conc- abs condi has a lot of effect on simula. That is what the 0,25,50 as abs
+is trying to prove. 
+
+for abs 50, it is as if we have placed the rod in between square grid heater
+heating it up from all four sides. Quickly reaches equi at t=50. The cold sink
+is not able to survive the heat onslaught from all the 4 sides. The breadth 
+heats up first to 50 and slowly the it spreads along the length.
+
+/////////////////////////
+
+Proj 3
+
+In weighted filer don't we have to take difference while wieghting it?
+How can we simply add some fraction of the neigbour's T? If we do that 
+even a colder block will be contribu to the inctease in your weight.
+
+Res- insetad of adding the weighted temp diff, directly take new temp of cell
+     as the weighted average of the neighbours. cold will infulence by red its temp
+	 neg and hot will inc it.

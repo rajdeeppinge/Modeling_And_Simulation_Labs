@@ -1,0 +1,30 @@
+Q1
+
+Part 1 - constant p
+
+Exponen type function, saturates to C.
+
+p decides how fast the adopta takes place
+
+p =0.9 -> steep
+p = 0.1 -> gentle
+
+Part 2
+
+logistic with inflection
+
+as q increases -> the steepness increses. ie rise to saturation increases.  
+q is the rate of adoptation, if it is too high it there is a drastic adoptation
+So point of inflection is not clearly seen. It looking like curve in plot 1.
+
+Assumes that information spreads only from adopted to non adopted. No extrenal influence ie other sources of information 
+
+Part 3
+
+mixture of both
+
+p param dominant as it contributes to exp
+
+->>>>>>>>>>>>> Also plot the new users at each instant, e.g N(t+dt)- N(t)
+
+//////////

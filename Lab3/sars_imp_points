@@ -1,0 +1,17 @@
+
+Exposed means have contrac disease but not infec yet
+
+sus can be quarantined 
+
+quaran has 2 groups, sus_quaran (put in quaran but healthy), exp_quaran( are exposed but can't be detected yet).
+
+exposed_quaran will eventaully become infectious, so they are moved to isolated, they may either die or recover but they will not spread infection.
+
+sus who are not quarantined are in danger of infec. Doubt: who will be quarantined?
+
+undected exposed are called exposed, as detected exposed have been handled in quarantined_exposed.
+
+Exposed people (undec) will become infectious.
+
+Infectious people spread the infection, they either die, recover or are detected as having disease. 
+If detected here, they are immediately isolated. 

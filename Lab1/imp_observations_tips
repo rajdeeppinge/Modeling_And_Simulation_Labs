@@ -1,0 +1,58 @@
+q3 
+
+a) 1 pill only, drug reaches dt instantaneosly
+
+ time to dissipate around 10 hrs, reasonable
+
+ in track continual decrease, in blood a peak increase and then dissipation
+
+imp points to solve - Sir verified
+
+Q2 c) regular intervals - so discrete dose(pill) at regular intervals
+
+Q3 d) continuous at all times (So in rate constant C=3)
+
+Obs- -> x saturates after a point, not that derivative is pos but decreasing
+     -> once x saturates, y behaves exactly like x's rate behaviour, equa becomes same
+	 -> there is a point of inflection in y, bcoz of competing rates, init y is less, so rate of y 
+	    is increasing, but then the increasing y begins to choke it until it reaches a saturation point.
+		Doubt in the fp reached for y.
+		
+Q3 e) dosage 1/2 hr continuous every 6 hours, like pulse waveform, use matlab repmat function
+ 
+Q3 f) saturates around 10 not harmful
+ 
+Q3 g) saturates around 8 not harmful
+
+
+Q4 'I' is just a placeholder in the equation
+
+in a) use 14N/10C as init condition, and I is 0 in rate equation,
+ 	   daru pyali ekda then observe.
+	   
+	-> if y>>>M then y' is independent of y!   
+	-> potentially strange behaviour
+	
+	obs-> man w 80 empty stomach - dizzy
+	      y plays a part as y not >>> M, so usual behaviour
+		  
+		  neg slope constant more of less coz k3 mult is very less and more or less same from 0.06 to 0.01
+
+		  for woman intake conc is lesser (coz of higher volume) and outflow is lesser, against what is normally 
+		  expected
+		  
+		  for average male(80) female(65) weight, the behaviour is more or less same as C is similar
+
+		  the model suggests the more weight you have less drunk you are but for longer time, as I is dep on weight
+		
+		  for larger drink here 10, y becomes around 50 times larger than M for a longer time,
+		  x decreases faster
+		  so for a significant time, y gets a constant negative slope.
+		  
+		  
+		b) I will be like C, so assume drinking continuosly. 
+
+           x saturates to a const, y large enough so sec term in ydot too sats,
+		   so bal rises unbounded.
+		   
+		   can we make a sit in which x does not saturate?
